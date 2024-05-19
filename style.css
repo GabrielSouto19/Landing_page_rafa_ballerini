@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    height: 100vh;
+    font-family:'Righteous',cursive;
+    color: white;
+    text-decoration:none;
+    font-size: 100%;
+
+
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    padding: 24px;
+
+}
+.cabecalho-menu-item{
+    font-family: "Sarala",sans-serif;
+    list-style: none;
+    display: inline;  
+    padding: 15px;
+}
+.cabecalho-menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.conteudo-principal{
+    /* border-top:0.4px solid ; */
+    border-top : 0.4px solid #fffde72d;
+    flex-direction: column;
+    justify-content: flexjust-end;
+}
+.conteudo-principal-div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+
+
+.botao-adicionar{
+    background-color: #ECD6C4;
+    text-align: center;
+    width: 130px;
+    color: #2F2325;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 4px 5px 4px 0px #00000040;
+    font-family: "Sarala",sans-serif;
+    font-weight: 400px;
+    /* box shadoq para fazer o efeito de sombra no meu elemento  */
+
+}
+
+.botao-adicionar:hover{
+    background-color: #2F2325;
+    color: #ECD6C4;
+    transition: ease 2s;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.conteudo-principal-imagem{
+    width: 250px;
+}
+
+
+.conteudo-secundario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+
+
+}
+.conteudo-secundario-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.conteudo-secundario-div h1{
+    border-top  : 0.4px solid rgba(255, 255, 255, 0.295);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.rodape{
+    border-top: 0.4px solid #fff2e73f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.conteudo-secundario-parag{
+    font-family: "Sarala";
+    font-weight: 300;
+}
